@@ -1,0 +1,8 @@
+{
+  "short_name": "Close Escrow",
+  "name": "Know What You Need To Close Escrow",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
