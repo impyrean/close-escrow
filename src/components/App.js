@@ -1,6 +1,6 @@
-import documents from './data/documents'
-import cities from './data/cities'
-import Document from './components/Document'
+import documents from '../data/documents'
+import cities from '../data/cities'
+import Document from './Document'
 import { useState } from 'react';
 
 const NoResults = () => {
