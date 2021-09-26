@@ -61,6 +61,45 @@ const documents = [
             type: 'City & County',
         },
     },
+    {
+        exceptions: [
+            {
+                description: 'Sewer lateral was completely replaced in the past 20 years',
+            },
+            {
+                description: 'A clean inpection report from the past 7 years',
+            },
+        ],
+        issuer: {
+            cost: '$400',
+            name: 'East Bay Municipal Utility District (EBMUD)',
+            time: '14 business days',
+        },
+        name: {
+            primary: 'PSL',
+            secondary: 'Private Sewer Lateral Inspection',
+        },
+        requiredBy: {
+            frequency: 'common',
+            name: 'Oakland',
+            type: 'City',
+        },
+    },
+    {
+        issuer: {
+            cost: '$85',
+            name: 'Oakland Department of Transportation',
+            time: '3 business days',
+        },
+        name: {
+            primary: 'Sidewalk Certification',
+        },
+        requiredBy: {
+            frequency: 'common',
+            name: 'Oakland',
+            type: 'City',
+        },
+    },
 ]
 
 export default documents
