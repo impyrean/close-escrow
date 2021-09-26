@@ -1,13 +1,132 @@
+/* [start] From create-react-app */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* [end] From create-react-app */
+
+/* Top-level */
+:root {
+  --badge-margin-left: 10px;
+  --card-border-radius: 10px;
+  --document-padding: 40px;
+  --main-col-padding: 30px;
+}
+@media only screen and (max-width: 479px) {
+  :root {
+    --document-padding: 20px;
+    --main-col-padding: 20px;
+  }
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html, body, #root, .fullHeight {
+  /* if child 100% height, then all parents too */
+  height: 100%; 
+}
+body {
+  background: #e0e0e0; /* could put this on a new div */
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: var(--card-border-radius);
+  padding: var(--document-padding);
+}
+
+/* Badge */
+.badge {
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: var(--badge-margin-left);
+  padding: 3px 5px;
+  text-transform: uppercase;
+}
+.badge--green {
+  background: rgb(174, 235, 174);
+}
+.badge--red {
+  background: lightcoral;
+  color: white;
+}
+.badge--yellow {
+  background: gold
+}
+
+/* Document */
+.Document {
+  margin-bottom: var(--main-col-padding);
+}
+.Document .Index {
+  color: #bbb;
+}
+.Document .Issuer div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.Document h2 {
+  margin-top: 0;
+}
+.Document h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* main */
+.main {
+  background: #f5f5f5;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: var(--main-col-padding);
+}
+
+/* Search */
+.NoResults {
+  color: lightcoral;
+}
+.SearchPage {
+  background: #fff;
+  height: 100%;
+  padding-top: 150px; /* body has bgcolor, hence not margin */
+  text-align: center; /* for header */
+}
+.Search h1 {
+  margin-bottom: 50px;
+}
+.SearchInputAndSuggestions {
+  margin: 0 auto;
+  width: 275px;
+}
+.SearchInputAndSuggestions * {
+  font-size: 15px;
+  width: 100%;
+}
+.SearchInput {
+  padding: 10px;
+}
+.SearchSuggestions {
+  text-align: left; /* restore */
+}
+.SearchSuggestion {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.SearchSuggestion:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+@media only screen and (max-width: 479px) {
+  .SearchPage {
+    padding-top: 50px;
+  }
 }

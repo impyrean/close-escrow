@@ -1,3 +1,13 @@
+# To Do
+
+- As of 20210925, the pages are done
+- Next: host the app
+- Next: complete development
+    - Add more docs
+    - Prop drilling
+- Next: test
+- Next: show Scott
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
