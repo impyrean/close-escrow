@@ -16,7 +16,6 @@ code {
 
 /* Top-level */
 :root {
-  --badge-margin-left: 10px;
   --card-border-radius: 10px;
   --document-padding: 40px;
   --main-col-padding: 30px;
@@ -45,29 +44,14 @@ body {
   padding: var(--document-padding);
 }
 
-/* Badge */
-.badge {
-  border-radius: 5px;
-  font-size: 0.7rem;
-  font-weight: bold;
-  margin-left: var(--badge-margin-left);
-  padding: 3px 5px;
-  text-transform: uppercase;
-}
-.badge--green {
-  background: rgb(174, 235, 174);
-}
-.badge--red {
-  background: lightcoral;
-  color: white;
-}
-.badge--yellow {
-  background: gold
-}
-
 /* Document */
 .Document {
   margin-bottom: var(--main-col-padding);
+}
+.Document .FinePrint {
+  font-size: 90%;
+  font-style: italic;
+  margin-top: 10px;
 }
 .Document .Index {
   color: #bbb;

@@ -74,6 +74,9 @@ const App = () => {
   const [searchInput, setSearchInput] = useState('')
   const [city, setCity] = useState(undefined)
   const [searchResults, setSearchResults] = useState([])
+  
+  // const sfDocs = documents.filter(d => d.requiredBy.name === 'San Francisco')
+  // const [searchResults, setSearchResults] = useState(sfDocs)
 
   const onSearchInputChange = e => {
     setShouldShowSuggestions(true) // User is typing, show suggestions

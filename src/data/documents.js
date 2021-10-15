@@ -1,11 +1,8 @@
 const documents = [
     {
-        exceptions: [
-            {
-                description: 'First sale of property',
-            },
-        ],
+        finePrint: 'Not required for first sale of new property',
         issuer: {
+            application: 'https://sfdbi.org/applying3R',
             cost: '$148',
             name: 'San Francisco Department of Building Inspection',
             time: '9 business days',
@@ -27,6 +24,7 @@ const documents = [
             },
         ],
         issuer: {
+            contractor: 'http://www.ggtr.com/',
             cost: '$80',
             name: 'Several inspectors',
             time: '3 business days',
@@ -41,12 +39,7 @@ const documents = [
         },
     },
     {
-        exceptions: [
-            {
-                description: 'Not enforced by City',
-                frequency: 'common',
-            },
-        ],
+        finePrint: 'There is no entity that follows up on this requirement',
         issuer: {
             cost: '$123',
             name: 'Several approved inspectors',
@@ -62,14 +55,7 @@ const documents = [
         },
     },
     {
-        exceptions: [
-            {
-                description: 'Sewer lateral was completely replaced in the past 20 years',
-            },
-            {
-                description: 'A clean inpection report from the past 7 years',
-            },
-        ],
+        finePrint: 'Not required if sewer lateral was completely replaced in the past 20 years',
         issuer: {
             cost: '$400',
             name: 'East Bay Municipal Utility District (EBMUD)',
