@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/close-escrow/static/css/main.8cb31140.chunk.css",
-    "main.js": "/close-escrow/static/js/main.729d981f.chunk.js",
-    "main.js.map": "/close-escrow/static/js/main.729d981f.chunk.js.map",
+    "main.css": "/close-escrow/static/css/main.9ccb7230.chunk.css",
+    "main.js": "/close-escrow/static/js/main.642b09a8.chunk.js",
+    "main.js.map": "/close-escrow/static/js/main.642b09a8.chunk.js.map",
     "runtime-main.js": "/close-escrow/static/js/runtime-main.56081d99.js",
     "runtime-main.js.map": "/close-escrow/static/js/runtime-main.56081d99.js.map",
     "static/js/2.247d6f80.chunk.js": "/close-escrow/static/js/2.247d6f80.chunk.js",
     "static/js/2.247d6f80.chunk.js.map": "/close-escrow/static/js/2.247d6f80.chunk.js.map",
     "index.html": "/close-escrow/index.html",
-    "static/css/main.8cb31140.chunk.css.map": "/close-escrow/static/css/main.8cb31140.chunk.css.map",
+    "static/css/main.9ccb7230.chunk.css.map": "/close-escrow/static/css/main.9ccb7230.chunk.css.map",
     "static/js/2.247d6f80.chunk.js.LICENSE.txt": "/close-escrow/static/js/2.247d6f80.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.56081d99.js",
     "static/js/2.247d6f80.chunk.js",
-    "static/css/main.8cb31140.chunk.css",
-    "static/js/main.729d981f.chunk.js"
+    "static/css/main.9ccb7230.chunk.css",
+    "static/js/main.642b09a8.chunk.js"
   ]
 }
